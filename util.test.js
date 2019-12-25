@@ -1,4 +1,5 @@
-const { checkAndGenerate, generateText } = require("./util");
+const puppeteer = require('puppeteer')
+const { checkAndGenerate, generateText } = require( "./util" );
 
 // have a double check
 test("should output name and age", () => {
