@@ -21,3 +21,5 @@ Want to learn something totally different? Check out all other courses: https://
 • And you should of course also follow @academind_real.
 • You can also find us on Facebook.(https://www.facebook.com/academindcha...)
 • Or visit our Website (https://www.academind.com) and subscribe to our newsletter!
+
+
