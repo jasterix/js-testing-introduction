@@ -24,3 +24,9 @@ exports.validateInput = (text, notEmpty, isNumber) => {
   }
   return true;
 };
+
+exports.checkAndGenerate = ( name, age ) => {
+  if (
+    !this.validateInput(newUserNameInput.value, true, false) || !this.validateInput(newUserAgeInput.value, false, true)
+  )
+}
