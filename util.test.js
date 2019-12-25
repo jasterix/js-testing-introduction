@@ -1,4 +1,4 @@
-const { generateText } = require("./util");
+const { checkAndGenerate, generateText } = require("./util");
 
 // have a double check
 test("should output name and age", () => {
@@ -12,4 +12,9 @@ test("should output name and age", () => {
 test("should output data-less test", () => {
   const text = generateText("", null);
   expect(text).toBe(" (null years old)");
+});
+
+test("should generate valid text output", () => {
+  const text = checkAndGenerate("Max", 29);
+  expect(text).toBe("Max (29 years old)");
 });
